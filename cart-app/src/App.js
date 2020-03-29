@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App" class="row" style={{maxWidth : '100%'}}>
       <Header></Header>
-      <CartPage></CartPage>
       <div class="col-lg-2" style={{ borderRight : '1px solid lightgray'}}>
         <Filter></Filter>
       </div>
