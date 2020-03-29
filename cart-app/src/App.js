@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import CartPage from './components/CartPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        Hello World
-      </header>
+    Hello!
+      <CartPage></CartPage>
     </div>
   );
 }
