@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import axios from 'axios'
 
 class Filter extends Component{
     constructor(props) {
@@ -14,7 +13,7 @@ class Filter extends Component{
         return(
             <React.Fragment>
                 <div>
-                    <div class="container" style={{marginTop : '2em'}}>
+                    <div className="container" style={{marginTop : '2em'}}>
                         Filters
                     </div>
                 </div>
