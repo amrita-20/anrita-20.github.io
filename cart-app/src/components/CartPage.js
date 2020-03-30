@@ -59,7 +59,7 @@ class CartPage extends Component {
 
                     })}
                  </ul>
-                    <ul class="container flex">
+                    {/* <ul class="container flex">
                         {responseData.map(item => {
                             return <li class="flexItem" key={item.id}>
                                 <img src={item.img_url} width="150em" height="200em" />
@@ -77,7 +77,7 @@ class CartPage extends Component {
                             </li>;
 
                         })}
-                    </ul>
+                    </ul> */}
                 </div>
             </React.Fragment>
 
