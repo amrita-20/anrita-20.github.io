@@ -8,9 +8,9 @@ import Filter from './components/Filter';
 
 function App() {
   return (
-    <div className="App" className="row" style={{maxWidth : '100%'}}>
+    <div className="App" class="row" style={{maxWidth : '100%', margin: 0}}>
       <Header></Header>
-      <div className="col-lg-2" style={{ borderRight : '1px solid lightgray'}}>
+      <div class="col-lg-2" style={{ borderRight : '1px solid lightgray'}}>
         <Filter></Filter>
       </div>
       <div className="col-lg-9">
